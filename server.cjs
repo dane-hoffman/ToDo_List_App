@@ -3,12 +3,9 @@ const { Pool } = require('pg');
 
 const app = express();
 
-// Replace with your database connection details
+// Configure your PostgreSQL database connection
 const pool = new Pool({
-  user: 'your_username',
-  host: 'localhost',
-  database: 'your_database',
-  password: 'your_password',
+  database: 'todolist', // Replace with your PostgreSQL database name (in this case, 'todolist')
   port: 5432, // Default PostgreSQL port
 });
 
@@ -25,7 +22,9 @@ app.post('/tasks', async (req, res) => {
   }
 });
 
-// Other endpoints for CRUD operations...
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
 
 const PORT = 8080;
 
