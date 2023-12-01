@@ -1,8 +1,17 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- This is a FullStack Application built for Block_33; using the following technologies
+    -REACT
+    -EXPRESS
+    -HTML
+    -CSS
+    -JS/JSX
+    -SQL/PSQL
+    -GIT/GITHUB
 
-Currently, two official plugins are available:
+- It is a simple 'To-Do' application allowing a user to do the following;
+    - READ a list of items
+    - CREATE new items on the list
+    - POST a status to the list item marking "complete"
+    - Delete a list item entirely
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
