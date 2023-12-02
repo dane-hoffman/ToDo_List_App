@@ -1,15 +1,12 @@
-import React from 'react'
-import Form from './components/Form.jsx'
+import React from 'react';
 
 function App() {
-
-
   return (
     <>
-    <h1>Hello World</h1>
-    <Form />
+      <h1>Hello World</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
